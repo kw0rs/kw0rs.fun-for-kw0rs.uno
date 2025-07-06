@@ -2,104 +2,151 @@
 <html lang="ru">
 <head>
     <!-- Open Graph -->
-<meta property="og:title" content="Академия имени Вильяма Кворса">
-<meta property="og:description" content="Блин, а прикольный сайтик так-то.">
-<meta property="og:image" content="https://kw0rs.uno/icon/williamkw0rs.jpg">
-<meta property="og:url" content="https://kw0rs.uno">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Академия Кворса">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Академия имени Вильяма Кворса">
-<meta name="twitter:description" content="Блин, а прикольный сайтик так-то.">
-<meta name="twitter:image" content="https://kw0rs.uno/icon/williamkw0rs.jpg">
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Академия Кворса | Главная</title>
-
-<!-- Favicon -->
-<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
-<link rel="apple-touch-icon" href="/icon/apple-touch-icon.png">
-<link rel="manifest" href="/icon/site.webmanifest">
-<link rel="shortcut icon" href="/icon/favicon.ico">
-
-<!-- Перегонка www на без www -->
-<script>
-if (location.hostname === 'www.kw0rs.uno') {
-    window.location.href = 'https://kw0rs.uno' + location.pathname;
-}
-</script>
-
-<style>
-  body {
-    background-color: #1a1a1a;
-    color: #eee;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-
-  .about-container {
-    background: #222;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    width: 90%;
-    max-width: 700px;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: #ffffff;
-  }
-
-  p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #ccc;
-  }
-
-  .button-link {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 12px 24px;
-    background-color: #333;
-    color: #eee;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0.3s, color 0.3s;
-    font-size: 16px;
-  }
-
-  .button-link:hover {
-    background-color: #c0392b;
-    color: #fff;
-  }
-</style>
+    <meta property="og:title" content="Переход на kw0rs.uno">
+    <meta property="og:description" content="Простая страница с переходом на основной сайт">
+    <meta property="og:image" content="https://kw0rs.uno/icon/williamkw0rs.jpg">
+    <meta property="og:url" content="https://kw0rs.uno">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="kw0rs">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Переход на kw0rs.uno">
+    <meta name="twitter:description" content="Простая страница с переходом на основной сайт">
+    <meta name="twitter:image" content="https://kw0rs.uno/icon/williamkw0rs.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kw0rs | Переход</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="/icon/apple-touch-icon.png">
+    <link rel="manifest" href="/icon/site.webmanifest">
+    <link rel="shortcut icon" href="/icon/favicon.ico">
+    
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #eee;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        .main-container {
+            background: #222;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            width: 90%;
+            max-width: 700px;
+            text-align: center;
+            position: relative;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #ccc;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+        .button-link {
+            display: inline-block;
+            margin: 15px 10px;
+            padding: 12px 24px;
+            background-color: #333;
+            color: #eee;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 16px;
+        }
+        .button-link:hover {
+            background-color: #c0392b;
+            color: #fff;
+        }
+        .main-button {
+            background-color: #c0392b;
+            color: #fff;
+            font-size: 18px;
+            padding: 15px 30px;
+            margin-top: 20px;
+        }
+        .main-button:hover {
+            background-color: #a03629;
+        }
+        .countdown {
+            font-size: 14px;
+            color: #999;
+            margin-top: 20px;
+        }
+        .auto-redirect {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
+    <div class="main-container">
+        <div class="auto-redirect">
+            Авто-переход через: <span id="countdown">10</span>с
+        </div>
+        
+        <h1>kw0rs</h1>
+        <h2>Добро пожаловать!</h2>
+        
+        <p>
+            Эта страница перенаправит вас на новый сайт.<br><br>
+            Если не хотите ждать — жмите кнопку ниже.
+        </p>
+        
+        <a href="https://kw0rs.uno" class="button-link main-button">
+            Перейти на kw0rs.uno
+        </a>
+        
+        <div class="countdown">
+            <p>Автоматический переход через <span id="countdown-text">10</span> секунд</p>
+        </div>
+    </div>
 
-<div class="about-container">
-  <h1>Обо мне</h1>
-  <p>
-    Я — kw0rs.<br><br>
-    Гений, миллиардер, филантроп. Это всё не про меня<br><br>
-    Я просто стараюсь жить в кайф и чё то делать. Видосы там всякие, стримы, рецензии.<br><br>
-    Либо оставайся, либо проваливай — всё честно.
-  </p>
-
-  <a href="/menu" class="button-link">Идти дальше</a>
-</div>
-
+    <script>
+        // Автоматический редирект через 10 секунд
+        let timeLeft = 10;
+        const countdownElement = document.getElementById('countdown');
+        const countdownTextElement = document.getElementById('countdown-text');
+        
+        const timer = setInterval(() => {
+            timeLeft--;
+            countdownElement.textContent = timeLeft;
+            countdownTextElement.textContent = timeLeft;
+            
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+                window.location.href = 'https://kw0rs.uno';
+            }
+        }, 1000);
+        
+        // Возможность отменить авто-переход при взаимодействии
+        document.addEventListener('click', () => {
+            clearInterval(timer);
+            countdownElement.textContent = 'отменен';
+            countdownTextElement.textContent = 'отменен';
+        });
+    </script>
 </body>
 </html>
